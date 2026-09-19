@@ -66,10 +66,36 @@ On phones and tablets, use the on-screen directional controls.
 7. Import the exported JSON file.
 
 Imported levels are normalized automatically from the designer's object-based cell format to the game's string-based cell format.
-
-[## Run locally on Replit](https://cat-dog-mouse-puzzle.replit.app/)
-
+## Run locally on Replit
 Start or restart the managed workflow:
 
-```text
 artifacts/cat-dog-mouse-puzzle: web
+
+The workflow runs:
+
+pnpm --filter @workspace/cat-dog-mouse-puzzle run dev
+
+Useful checks:
+
+pnpm --filter @workspace/cat-dog-mouse-puzzle run typecheck
+pnpm --filter @workspace/cat-dog-mouse-puzzle run build
+
+Project structure
+artifacts/cat-dog-mouse-puzzle/
+├── public/
+│   ├── game.html
+│   └── level-designer.html
+├── src/
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── package.json
+└── vite.config.ts
+
+Data and privacy
+Custom chapters, levels, and edits are stored locally in the browser with localStorage. The game does not require an account or send level data to a server. Export important custom levels as JSON if you want a portable backup.
+
+Educational use
+This project was created for educational and non-commercial use. Use original artwork, audio, names, and other assets if you extend or distribute it.
+
+https://cat-dog-mouse-puzzle.replit.app/
