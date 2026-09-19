@@ -1,9 +1,12 @@
 # A CAT IS CAT, BUT THE DOG IS MOUSE
 
-A browser-based rule-manipulation puzzle game with a visual level designer. Rearrange word blocks to change how the world behaves, guide controlled characters to winning tiles, and create custom puzzles without writing code.
+A browser-based rule-manipulation puzzle game with a visual level designer. Rearrange word blocks to change how the world behaves, guide controlled characters to winning tiles.
+
 https://cat-dog-mouse-puzzle.replit.app/
 
-The project uses an original warm toy-box presentation and emoji-based artwork. It is inspired by rule-manipulation puzzle mechanics and does not include assets from *Baba Is You*.
+Also include a custom level designer compatible with the game.
+
+The project uses an original warm toy-box presentation and emoji-based artwork. It is inspired by rule-manipulation puzzle mechanics and it lets you bend the rules of physics to win.
 
 ## Features
 
